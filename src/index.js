@@ -15,7 +15,7 @@
 var APP_ID = undefined; //OPTIONAL: replace with "amzn1.echo-sdk-ams.app.[your-unique-value-here]";
 
 /**
- * Array containing Game of thrones facts.
+ * Array containing Thrones facts.
  */
 var FACTS = [
     "Sansa Stark Adopted her Direwolf in real life",
@@ -66,7 +66,7 @@ Fact.prototype.intentHandlers = {
     },
 
     "AMAZON.HelpIntent": function (intent, session, response) {
-        response.ask("You can say tell me a Game of thrones fact, or, you can say exit... What can I help you with?", "What can I help you with?");
+        response.ask("You can say tell me a Thrones fact, or, you can say exit... What can I help you with?", "What can I help you with?");
     },
 
     "AMAZON.StopIntent": function (intent, session, response) {
@@ -84,7 +84,7 @@ Fact.prototype.intentHandlers = {
  * Gets a random new fact from the list and returns to the user.
  */
 function handleNewFactRequest(response) {
-    // Get a random Game of thrones fact from the Game of thrones facts list
+    // Get a random Thrones fact from the Thrones facts list
     var factIndex = Math.floor(Math.random() * FACTS.length);
     var randomFact = FACTS[factIndex];
 
@@ -96,7 +96,7 @@ function handleNewFactRequest(response) {
 
 // Create the handler that responds to the Alexa Request.
 exports.handler = function (event, context) {
-    // Create an instance of the GameOfThronesGeek skill.
+    // Create an instance of the ThronesGeek skill.
     var fact = new Fact();
     fact.execute(event, context);
 };

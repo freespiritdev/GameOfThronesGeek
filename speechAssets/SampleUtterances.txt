@@ -1,14 +1,14 @@
 GetNewFactIntent a fact
-GetNewFactIntent a Game of thrones fact
+GetNewFactIntent a Thrones fact
 GetNewFactIntent tell me a fact
-GetNewFactIntent tell me a Game of thrones fact
+GetNewFactIntent tell me a Thrones fact
 GetNewFactIntent give me a fact
-GetNewFactIntent give me a Game of thrones fact
+GetNewFactIntent give me a Thrones fact
 GetNewFactIntent tell me trivia
-GetNewFactIntent tell me a Game of thrones trivia
+GetNewFactIntent tell me a Thrones trivia
 GetNewFactIntent give me trivia
-GetNewFactIntent give me a Game of thrones trivia
+GetNewFactIntent give me a Thrones trivia
 GetNewFactIntent give me some information
-GetNewFactIntent give me some Game of thrones information
+GetNewFactIntent give me some Thrones information
 GetNewFactIntent tell me something
 GetNewFactIntent give me something
