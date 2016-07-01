@@ -26,7 +26,7 @@ var FACTS = [
     "The show's Emmy Award-winning costumes are aged two weeks to perfect their gritty look.",
     "King's Landing, Winterfell and the Wall have appeared in every single one of those title sequences.",
     "The title sequence is just one of many 'Lord of the Rings' connections. Another? Gandalf's sword Glamdring is part of the show's Iron Throne.",
-    "The Moon is moving approximately 3.8 cm away from our planet every year."
+    "Jack Gleeson, who played everyone's least favorite ruler, Joffrey, also appeared in Batman Begins as a kid."
 ];
 
 /**
